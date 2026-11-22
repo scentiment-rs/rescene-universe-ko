@@ -1,5 +1,7 @@
 # 리센느 유니버스 — 한국어판
 
+https://scentiment-rs.github.io/rescene-universe-ko/
+
 일본 팬북 『RESCENEユニバース ― K-POPのどん底から始まった新世界 リセンヌの記録』(名もなきREMINE 지음)의 한국어판 웹 버전입니다.
 
 - 원작: https://pt-knight.booth.pm/items/9197350
