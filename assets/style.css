@@ -1,0 +1,31 @@
+:root{--bg:#fbfaf7;--fg:#1f1f1f;--mut:#6b6b6b;--line:#e4e1da;--acc:#1d4f91;--card:#fff;--dd:#f2f0ea}
+@media (prefers-color-scheme:dark){:root{--bg:#16171a;--fg:#e6e4df;--mut:#9a9a9a;--line:#2c2e33;--acc:#8fb4ea;--card:#1e2024;--dd:#1f2125}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:"Noto Serif KR",serif;font-size:17.5px;line-height:1.9;word-break:keep-all;overflow-wrap:break-word}
+a{color:var(--acc)}
+.top{position:sticky;top:0;z-index:5;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 20px;background:var(--bg);border-bottom:1px solid var(--line);font-family:"Noto Sans KR",sans-serif;font-size:14px}
+.top .brand{font-weight:700;color:var(--fg);text-decoration:none}.top nav a{margin-left:16px;color:var(--mut);text-decoration:none}
+main{max-width:700px;margin:0 auto;padding:28px 20px 40px}
+h1,h2,h3,h4{font-family:"Noto Sans KR",sans-serif;line-height:1.45;word-break:keep-all}
+article h1{font-size:28px;margin:8px 0 28px}article h2{font-size:24px;margin:8px 0 28px}article h3{font-size:19px;margin:44px 0 14px}article h4{font-size:15px;color:var(--mut);margin:40px 0 8px}
+p{margin:0 0 1.05em}.vol{font-family:"Noto Sans KR",sans-serif;font-size:13px;color:var(--mut);margin-bottom:4px}
+.dd{margin:0 0 .8em;padding:.5em .9em;background:var(--dd);border-radius:6px;font-size:16px}
+article ul{padding-left:1.2em;font-size:15px;line-height:1.7}article ul li{margin:.35em 0}
+a.u{font-family:"Noto Sans KR",sans-serif;font-size:13px;word-break:break-all}
+.tw{overflow-x:auto;margin:0 0 1.4em}table{border-collapse:collapse;font-family:"Noto Sans KR",sans-serif;font-size:13.5px;line-height:1.55;min-width:100%}th,td{border-bottom:1px solid var(--line);padding:7px 8px;text-align:left;vertical-align:top}th{white-space:nowrap}
+article.part{padding-top:30px}article.part h1{font-size:32px}
+.pn{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:56px 0 0;font-family:"Noto Sans KR",sans-serif}
+.pn a{display:block;padding:14px;border:1px solid var(--line);border-radius:10px;text-decoration:none;color:var(--fg);font-size:14px;line-height:1.45;background:var(--card)}
+.pn a span{display:block;font-size:12px;color:var(--mut);margin-bottom:4px}.pn .next{text-align:right}
+.hero{padding:30px 0 10px}.kicker{font-family:"Noto Sans KR",sans-serif;font-size:13px;color:var(--mut);margin:0}
+.hero h1{font-size:44px;margin:8px 0 6px}.sub{font-family:"Noto Sans KR",sans-serif;font-weight:700;font-size:17px;margin:0 0 6px}.by{color:var(--mut);font-size:15px;margin-bottom:26px}
+.btns{display:flex;gap:10px;flex-wrap:wrap;margin:26px 0 10px}.btn{font-family:"Noto Sans KR",sans-serif;font-size:15px;padding:11px 18px;border-radius:999px;border:1px solid var(--line);text-decoration:none;color:var(--fg);background:var(--card)}.btn.pri{background:var(--acc);border-color:var(--acc);color:#fff}
+@media (prefers-color-scheme:dark){.btn.pri{color:#111}}
+section h2{font-size:21px;margin:48px 0 16px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:10px}.card{display:block;padding:14px 16px;border:1px solid var(--line);border-radius:10px;text-decoration:none;color:var(--fg);background:var(--card);font-family:"Noto Sans KR",sans-serif}.card b{display:block;font-size:15px}.card span{font-size:12.5px;color:var(--mut)}
+.toc ol{list-style:none;padding:0;margin:0;font-family:"Noto Sans KR",sans-serif}.toc li a{display:block;text-decoration:none;color:var(--fg);padding:8px 2px;border-bottom:1px solid var(--line);font-size:15px;line-height:1.5}
+.toc li.tp a{font-weight:700;margin-top:18px;border-bottom:2px solid var(--fg)}.toc li.tc a{padding-left:14px}.toc li.ts a{font-weight:700}
+.about ul{font-size:15.5px;line-height:1.8}
+.foot{max-width:700px;margin:0 auto;padding:24px 20px 50px;border-top:1px solid var(--line);font-family:"Noto Sans KR",sans-serif;font-size:12.5px;color:var(--mut);line-height:1.7}
+@media (max-width:560px){body{font-size:16.5px}.hero h1{font-size:34px}article h2{font-size:21px}.pn{grid-template-columns:1fr}.pn .next{text-align:left}}
+@media print{.top,.pn,.foot{display:none}}
