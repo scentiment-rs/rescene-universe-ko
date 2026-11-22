@@ -14,8 +14,17 @@
 | `chapter-01.html` ~ `chapter-50.html` | 장별 본문 |
 | `prologue.html`, `epilogue.html`, `part-1.html` ~ `part-8.html` | 프롤로그·에필로그·부 도입 |
 | `characters.html`, `appendix*.html`, `timeline.html`, `sources.html` | 등장인물·부록·연표·출처 |
-| `downloads/` | 전편·후편 PDF 파일 |
+| `downloads/` | 전편·후편 PDF와 Word 파일 |
 | `assets/style.css` | 스타일(라이트/다크 모드 자동) |
+
+## GitHub Pages로 공개하기
+
+1. GitHub에서 새 저장소를 만듭니다. 이름은 `rescene-universe-ko`를 권장합니다(Public).
+2. 이 폴더 안의 파일을 모두 저장소 루트에 올립니다(`.nojekyll` 포함).
+3. 저장소 **Settings → Pages**에서 Source를 **Deploy from a branch**, Branch를 `main` / `(root)`로 정하고 저장합니다.
+4. 1~2분 뒤 `https://<GitHub 아이디>.github.io/rescene-universe-ko/`에서 열립니다.
+5. `sitemap.xml`과 `robots.txt` 안의 `YOUR-GITHUB-ID`를 실제 아이디로 바꿉니다(저장소 이름을 다르게 했다면 그 부분도).
+6. 검색 노출을 원하면 Google Search Console과 네이버 서치어드바이저에 사이트를 등록하고 `sitemap.xml`을 제출합니다.
 
 ## 수정 요청
 
